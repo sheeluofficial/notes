@@ -7,7 +7,7 @@
 
 ### Paragraph
 
-Normal text just like this line are treated as </p> tag.
+Normal text just like this line are treated as paragraph tag.
 
 ### Line break
 
