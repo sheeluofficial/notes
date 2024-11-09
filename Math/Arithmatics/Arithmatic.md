@@ -1179,6 +1179,10 @@ Equations are mathematical statements that show the equality between two express
 
 ---
 
+
+
+# Solving Inequalities
+
 ## 1.3 Solving Inequalities
 
 ### What is an Inequality?
@@ -1187,18 +1191,18 @@ An **inequality** is a mathematical statement indicating that one expression is 
 
 ### Types of Inequalities
 
-1. **Less Than**: \( x < a \)
-2. **Greater Than**: \( x > a \)
-3. **Less Than or Equal To**: \( x \leq a \)
-4. **Greater Than or Equal To**: \( x \geq a \)
+1. **Less Than**: `x < a`
+2. **Greater Than**: `x > a`
+3. **Less Than or Equal To**: `x ≤ a`
+4. **Greater Than or Equal To**: `x ≥ a`
 
 ### Graphical Representation of Inequalities
 
 Inequalities can be represented on a **number line** or a **coordinate plane**:
 
 - **Number Line**: For inequalities in one variable, plot on a number line.
-  - Use an **open circle** for \( < \) or \( > \) (not including the endpoint).
-  - Use a **closed circle** for \( \leq \) or \( \geq \) (including the endpoint).
+  - Use an **open circle** for `<` or `>` (not including the endpoint).
+  - Use a **closed circle** for `≤` or `≥` (including the endpoint).
 
 ### Basic Rules for Solving Inequalities
 
@@ -1215,96 +1219,86 @@ The process for solving inequalities is similar to solving equations, with an im
 
 1. **Simple Inequality**
 
-   Solve for \( x \):
-   \[
-   x + 3 < 7
-   \]
-
-   - Step 1: Subtract 3 from both sides:
-     \[
-     x < 4
-     \]
-   - **Solution**: \( x < 4 \)
-   - **Graphical Representation**: On a number line, place an open circle at 4 and shade to the left to show all values less than 4.
+   Solve for `x`:
+    x + 3 < 7
+    
+- Step 1: Subtract 3 from both sides:
+  ```
+  x < 4
+  ```
+- **Solution**: `x < 4`
+- **Graphical Representation**: On a number line, place an open circle at 4 and shade to the left to show all values less than 4.
 
 2. **Inequality with Multiplication**
 
-   Solve for \( x \):
-   \[
-   2x \geq 8
-   \]
+Solve for `x`:
+2x ≥ 8
 
-   - Step 1: Divide both sides by 2:
-     \[
-     x \geq 4
-     \]
-   - **Solution**: \( x \geq 4 \)
-   - **Graphical Representation**: Place a closed circle at 4 and shade to the right.
+- Step 1: Divide both sides by 2:
+  ```
+  x ≥ 4
+  ```
+- **Solution**: `x ≥ 4`
+- **Graphical Representation**: Place a closed circle at 4 and shade to the right.
 
 3. **Inequality Requiring Sign Flip**
 
-   Solve for \( x \):
-   \[
-   -3x > 9
-   \]
+Solve for `x`:
+-3x > 9
 
-   - Step 1: Divide by \(-3\), and flip the inequality sign:
-     \[
-     x < -3
-     \]
-   - **Solution**: \( x < -3 \)
-   - **Graphical Representation**: On a number line, place an open circle at \(-3\) and shade to the left.
+- Step 1: Divide by `-3`, and flip the inequality sign:
+  ```
+  x < -3
+  ```
+- **Solution**: `x < -3`
+- **Graphical Representation**: On a number line, place an open circle at `-3` and shade to the left.
 
 ### Compound Inequalities
 
 A **compound inequality** includes two inequalities connected by “and” or “or”:
-- **"And" Inequality**: Represents the intersection of solutions (e.g., \( a < x \leq b \)).
-- **"Or" Inequality**: Represents the union of solutions (e.g., \( x < a \) or \( x > b \)).
+- **"And" Inequality**: Represents the intersection of solutions (e.g., `a < x ≤ b`).
+- **"Or" Inequality**: Represents the union of solutions (e.g., `x < a` or `x > b`).
 
 #### Examples of Compound Inequalities
 
 1. **And Inequality**
 
-   Solve for \( x \):
-   \[
-   1 < x + 3 \leq 5
-   \]
+Solve for `x`:
+1 < x + 3 ≤ 5
 
-   - Step 1: Break it into two parts:
-     - \( 1 < x + 3 \)
-     - \( x + 3 \leq 5 \)
-   - Step 2: Solve each part:
-     - For \( 1 < x + 3 \): Subtract 3 → \( x > -2 \)
-     - For \( x + 3 \leq 5 \): Subtract 3 → \( x \leq 2 \)
-   - **Solution**: \( -2 < x \leq 2 \)
-   - **Graphical Representation**: On a number line, use an open circle at \(-2\) and a closed circle at 2, shading the area between.
+- Step 1: Break it into two parts:
+  - `1 < x + 3`
+  - `x + 3 ≤ 5`
+- Step 2: Solve each part:
+  - For `1 < x + 3`: Subtract 3 → `x > -2`
+  - For `x + 3 ≤ 5`: Subtract 3 → `x ≤ 2`
+- **Solution**: `-2 < x ≤ 2`
+- **Graphical Representation**: On a number line, use an open circle at `-2` and a closed circle at 2, shading the area between.
 
 2. **Or Inequality**
 
-   Solve for \( x \):
-   \[
-   x < -1 \quad \text{or} \quad x > 3
-   \]
+Solve for `x`:
+x < -1 or x > 3
 
-   - **Solution**: \( x < -1 \) or \( x > 3 \)
-   - **Graphical Representation**: Place open circles at \(-1\) and \(3\), shading to the left of \(-1\) and to the right of \(3\).
+- **Solution**: `x < -1` or `x > 3`
+- **Graphical Representation**: Place open circles at `-1` and `3`, shading to the left of `-1` and to the right of `3`.
 
 ### Interval Notation
 
 In interval notation, we represent solutions as intervals:
-- **Parentheses** \(( )\) are used for values that are not included (e.g., \(x < 4\) is \((- \infty, 4)\)).
-- **Brackets** \([ ]\) are used for values that are included (e.g., \(x \leq 4\) is \((- \infty, 4]\)).
+- **Parentheses** `( )` are used for values that are not included (e.g., `x < 4` is `(-∞, 4)`).
+- **Brackets** `[ ]` are used for values that are included (e.g., `x ≤ 4` is `(-∞, 4]`).
 
 #### Examples
 
-- \(x > 3\) in interval notation: \((3, \infty)\)
-- \(-2 \leq x < 5\) in interval notation: \([-2, 5)\)
+- `x > 3` in interval notation: `(3, ∞)`
+- `-2 ≤ x < 5` in interval notation: `[-2, 5)`
 
 ### Real-Life Applications of Inequalities
 
-1. **Budgeting**: You may want to ensure that your spending is within a limit. If your budget is $500, you can set up an inequality such as \( x \leq 500 \) to show that spending ( \( x \) ) should not exceed $500.
+1. **Budgeting**: You may want to ensure that your spending is within a limit. If your budget is $500, you can set up an inequality such as `x ≤ 500` to show that spending ( `x` ) should not exceed $500.
 
-2. **Speed Limits**: Suppose a speed limit is 60 km/h. The inequality \( v \leq 60 \) describes the allowable speed \( v \), which must not exceed 60 km/h.
+2. **Speed Limits**: Suppose a speed limit is 60 km/h. The inequality `v ≤ 60` describes the allowable speed `v`, which must not exceed 60 km/h.
 
 ---
 
@@ -1312,11 +1306,10 @@ In interval notation, we represent solutions as intervals:
 
 | Type                      | Symbol         | Example          | Solution Notation           |
 |---------------------------|----------------|------------------|------------------------------|
-| **Less Than**             | \( < \)       | \( x < 4 \)     | Interval: \((- \infty, 4)\) |
-| **Greater Than**          | \( > \)       | \( x > 2 \)     | Interval: \((2, \infty)\)   |
-| **Less Than or Equal To** | \( \leq \)    | \( x \leq 5 \)  | Interval: \((- \infty, 5]\) |
-| **Greater Than or Equal To** | \( \geq \) | \( x \geq -3 \) | Interval: \([-3, \infty)\)  |
-
+| **Less Than**             | `<`           | `x < 4`         | Interval: `(-∞, 4)`         |
+| **Greater Than**          | `>`           | `x > 2`         | Interval: `(2, ∞)`          |
+| **Less Than or Equal To** | `≤`           | `x ≤ 5`         | Interval: `(-∞, 5]`         |
+| **Greater Than or Equal To** | `≥`        | `x ≥ -3`        | Interval: `[-3, ∞)`         |
 
 ---
 
@@ -1326,15 +1319,10 @@ In interval notation, we represent solutions as intervals:
 
 The **absolute value** of a number represents its distance from zero on a number line, regardless of direction. Absolute value is always non-negative.
 
-- Notation: \( |x| \)
-- For any number \( x \):
-  \[
-  |x| = 
-  \begin{cases} 
-      x & \text{if } x \geq 0 \\
-      -x & \text{if } x < 0 
-   \end{cases}
-  \]
+- Notation: `|x|`
+- For any number `x`:
+
+|x| = { x if x ≥ 0 -x if x < 0 }
 
 ### Absolute Value Equations
 
@@ -1342,17 +1330,17 @@ An **absolute value equation** is an equation that contains an absolute value ex
 
 #### General Form
 
-For an equation \( |x| = a \) where \( a \geq 0 \):
-- **If \( a = 0 \)**: \( |x| = 0 \Rightarrow x = 0 \)
-- **If \( a > 0 \)**: \( |x| = a \Rightarrow x = a \) or \( x = -a \)
+For an equation `|x| = a` where `a ≥ 0`:
+- **If `a = 0`**: `|x| = 0` → `x = 0`
+- **If `a > 0`**: `|x| = a` → `x = a` or `x = -a`
 
 #### Steps to Solve Absolute Value Equations
 
 1. **Isolate the Absolute Value**:
-   - Ensure that the absolute value expression is by itself on one side of the equation.
+ - Ensure that the absolute value expression is by itself on one side of the equation.
 2. **Set Up Two Cases**:
-   - One case where the expression inside the absolute value is equal to the positive value.
-   - Another case where the expression inside the absolute value is equal to the negative value.
+ - One case where the expression inside the absolute value is equal to the positive value.
+ - Another case where the expression inside the absolute value is equal to the negative value.
 3. **Solve Each Case Separately**.
 4. **Check Solutions** (especially for extraneous solutions).
 
@@ -1360,384 +1348,306 @@ For an equation \( |x| = a \) where \( a \geq 0 \):
 
 1. **Basic Example**
 
-   Solve \( |x| = 5 \).
+ Solve `|x| = 5`.
 
-   - Case 1: \( x = 5 \)
-   - Case 2: \( x = -5 \)
-   - **Solution**: \( x = 5 \) or \( x = -5 \)
+ - Case 1: `x = 5`
+ - Case 2: `x = -5`
+ - **Solution**: `x = 5` or `x = -5`
 
 2. **Equation with an Expression Inside Absolute Value**
 
-   Solve \( |x + 3| = 7 \).
+ Solve `|x + 3| = 7`.
 
-   - Case 1: \( x + 3 = 7 \) → \( x = 4 \)
-   - Case 2: \( x + 3 = -7 \) → \( x = -10 \)
-   - **Solution**: \( x = 4 \) or \( x = -10 \)
+ - Case 1: `x + 3 = 7` → `x = 4`
+ - Case 2: `x + 3 = -7` → `x = -10`
+ - **Solution**: `x = 4` or `x = -10`
 
 3. **Extraneous Solution Example**
 
-   Solve \( |2x - 1| = -3 \).
+ Solve `|2x - 1| = -3`.
 
-   - Since absolute value is always non-negative, there is **no solution** for this equation.
+ - Since absolute value is always non-negative, there is **no solution** for this equation.
 
 ### Absolute Value Inequalities
 
-An **absolute value inequality** can have the form \( |x| < a \), \( |x| > a \), \( |x| \leq a \), or \( |x| \geq a \).
+An **absolute value inequality** can have the form `|x| < a`, `|x| > a`, `|x| ≤ a`, or `|x| ≥ a`.
 
 #### Types of Absolute Value Inequalities
 
-1. **Less Than (\( |x| < a \))**:
-   - When \( |x| < a \), it implies a range of values: \( -a < x < a \).
-   - Example: Solve \( |x| < 3 \).
-     - **Solution**: \( -3 < x < 3 \)
+1. **Less Than (`|x| < a`)**:
+ - When `|x| < a`, it implies a range of values: `-a < x < a`.
+ - Example: Solve `|x| < 3`.
+   - **Solution**: `-3 < x < 3`
 
-2. **Greater Than (\( |x| > a \))**:
-   - When \( |x| > a \), it implies two separate ranges: \( x < -a \) or \( x > a \).
-   - Example: Solve \( |x| > 4 \).
-     - **Solution**: \( x < -4 \) or \( x > 4 \)
+2. **Greater Than (`|x| > a`)**:
+ - When `|x| > a`, it implies two separate ranges: `x < -a` or `x > a`.
+ - Example: Solve `|x| > 4`.
+   - **Solution**: `x < -4` or `x > 4`
 
-3. **Less Than or Equal To (\( |x| \leq a \))**:
-   - When \( |x| \leq a \), it includes the boundary values \( -a \leq x \leq a \).
-   - Example: Solve \( |x| \leq 2 \).
-     - **Solution**: \( -2 \leq x \leq 2 \)
+#### Examples
 
-4. **Greater Than or Equal To (\( |x| \geq a \))**:
-   - When \( |x| \geq a \), it includes two ranges with boundaries: \( x \leq -a \) or \( x \geq a \).
-   - Example: Solve \( |x| \geq 5 \).
-     - **Solution**: \( x \leq -5 \) or \( x \geq 5 \)
+1. **Less Than Example**
 
-#### Steps to Solve Absolute Value Inequalities
+ Solve `|x - 2| < 6`.
 
-1. **Isolate the Absolute Value** if necessary.
-2. **Set Up the Appropriate Range** based on the inequality type:
-   - For \( |x| < a \), set \( -a < x < a \).
-   - For \( |x| > a \), set \( x < -a \) or \( x > a \).
-3. **Solve Each Inequality** separately.
-4. **Express the Solution in Interval Notation** if required.
+ - Translate: `-6 < x - 2 < 6`
+ - Solve for `x`: `-4 < x < 8`
+ - **Solution**: `-4 < x < 8`
 
-#### Example Walkthroughs
+2. **Greater Than Example**
 
-1. **Less Than Inequality**
+ Solve `|x + 1| > 3`.
 
-   Solve \( |x - 2| < 6 \).
+ - Translate: `x + 1 < -3` or `x + 1 > 3`
+ - Solve each inequality:
+   - For `x + 1 < -3`: `x < -4`
+   - For `x + 1 > 3`: `x > 2`
+ - **Solution**: `x < -4` or `x > 2`
 
-   - Step 1: Set up the inequality: \( -6 < x - 2 < 6 \)
-   - Step 2: Solve for \( x \) by adding 2 to all parts:
-     \[
-     -4 < x < 8
-     \]
-   - **Solution**: \( -4 < x < 8 \), or interval notation: \( (-4, 8) \)
+### Real-Life Applications of Absolute Value
 
-2. **Greater Than Inequality**
+1. **Quality Control**: If a product should weigh 10 grams with a tolerance of ±0.5 grams, the allowable weights are represented by the inequality `|w - 10| ≤ 0.5`, where `w` is the weight.
 
-   Solve \( |x + 1| > 3 \).
-
-   - Step 1: Set up the inequality as two cases:
-     - \( x + 1 > 3 \) or \( x + 1 < -3 \)
-   - Step 2: Solve each case:
-     - For \( x + 1 > 3 \): \( x > 2 \)
-     - For \( x + 1 < -3 \): \( x < -4 \)
-   - **Solution**: \( x > 2 \) or \( x < -4 \), or interval notation: \( (-\infty, -4) \cup (2, \infty) \)
-
-### Graphing Absolute Value Inequalities
-
-1. **Number Line**: 
-   - Use open or closed circles depending on the inequality symbol.
-   - Shade the regions based on the solution intervals.
-   
-2. **Coordinate Plane**:
-   - Graphing absolute value inequalities in two variables (e.g., \( |x - y| \leq 3 \)) involves shading regions based on distance from points or lines.
-
-### Real-Life Applications of Absolute Value Equations and Inequalities
-
-1. **Quality Control**: Suppose a factory’s output should weigh 10 grams with a tolerance of ±0.5 grams. This can be expressed as \( |w - 10| \leq 0.5 \), where \( w \) is the weight.
-
-2. **Distance Problems**: If you are at mile 20 on a road and can travel up to 5 miles in either direction, the range can be expressed as \( |x - 20| \leq 5 \), where \( x \) is your possible location.
+2. **Distance Problems**: If you live at mile 20 and are willing to travel up to 5 miles, then your possible locations would satisfy `|x - 20| ≤ 5`.
 
 ---
 
-## 1.5 Systems of Linear Equations and Inequalities
+# Systems of Linear Equations and Inequalities
 
-### What is a System of Linear Equations?
+## Introduction to Systems of Equations
 
-A **system of linear equations** is a collection of two or more linear equations with the same set of variables. The objective is to find values for the variables that satisfy all equations simultaneously.
+A **system of equations** consists of two or more linear equations with the same set of variables. The solution to a system of equations is the set of values that satisfy all equations simultaneously.
 
-#### General Form
+### Types of Systems
 
-For a system with two variables \( x \) and \( y \), a system of equations may look like:
-\[
-\begin{cases}
-a_1x + b_1y = c_1 \\
-a_2x + b_2y = c_2
-\end{cases}
-\]
-where \( a_1 \), \( b_1 \), \( c_1 \), \( a_2 \), \( b_2 \), and \( c_2 \) are constants.
+1. **Consistent Systems**: Have at least one solution.
+   - **Independent**: Exactly one solution (lines intersect at a single point).
+   - **Dependent**: Infinitely many solutions (lines coincide).
+
+2. **Inconsistent Systems**: Have no solution (lines are parallel and never intersect).
 
 ### Methods for Solving Systems of Linear Equations
 
-1. **Graphical Method**
-2. **Substitution Method**
-3. **Elimination Method**
-
 #### 1. Graphical Method
-
-In the graphical method, each equation is plotted on the coordinate plane. The point(s) of intersection, if any, represent the solution(s) of the system.
-
-- **One Solution**: Lines intersect at a single point.
-- **No Solution**: Lines are parallel and never intersect.
-- **Infinite Solutions**: Lines coincide (overlap completely).
-
-##### Example
-
-Solve the following system:
-\[
-\begin{cases}
-x + y = 5 \\
-x - y = 1
-\end{cases}
-\]
-
-1. Plot \( x + y = 5 \) and \( x - y = 1 \).
-2. Identify the point of intersection (3, 2).
-3. **Solution**: \( x = 3 \), \( y = 2 \).
+   - Graph each equation on the same coordinate plane.
+   - Identify the point(s) where the lines intersect. This point represents the solution.
+   - **Pros**: Visual understanding.
+   - **Cons**: May be inaccurate if lines do not intersect at integer coordinates.
 
 #### 2. Substitution Method
-
-The substitution method involves solving one equation for one variable and substituting this expression into the other equation.
-
-##### Steps
-
-1. Solve one equation for one variable in terms of the other.
-2. Substitute this expression into the second equation.
-3. Solve for the remaining variable.
-4. Substitute back to find the first variable.
-
-##### Example
-
-Solve:
-\[
-\begin{cases}
-x + y = 5 \\
-x - y = 1
-\end{cases}
-\]
-
-1. Solve the first equation for \( x \): \( x = 5 - y \).
-2. Substitute \( x = 5 - y \) into the second equation:
-   \[
-   5 - y - y = 1 \Rightarrow 5 - 2y = 1 \Rightarrow y = 2
-   \]
-3. Substitute \( y = 2 \) back into \( x = 5 - y \): \( x = 3 \).
-4. **Solution**: \( x = 3 \), \( y = 2 \).
+   - Solve one equation for one variable.
+   - Substitute this expression into the other equation.
+   - Solve for the remaining variable, then substitute back to find the first variable.
+   - **Example**:
+     ```
+     x + y = 5
+     x - y = 1
+     ```
+     Solve the first equation for `x`: `x = 5 - y`.
+     Substitute into the second equation: `5 - y - y = 1`.
+     Solution: `x = 3`, `y = 2`.
 
 #### 3. Elimination Method
+   - Adjust the equations by addition or subtraction to eliminate one variable.
+   - Solve for the remaining variable and substitute back to find the other.
+   - **Example**:
+     ```
+     2x + 3y = 6
+     4x - 3y = 12
+     ```
+     Add both equations to eliminate `y`: `6x = 18`.
+     Solution: `x = 3`, `y = 0`.
 
-The elimination method involves adding or subtracting equations to eliminate one of the variables.
+---
 
-##### Steps
+## Systems of Linear Inequalities
 
-1. Multiply one or both equations by constants to align coefficients.
-2. Add or subtract the equations to eliminate a variable.
-3. Solve for the remaining variable.
-4. Substitute back to find the other variable.
+A **system of linear inequalities** involves two or more inequalities with the same variables. The solution to a system of inequalities is the region of the graph where all shaded regions overlap.
 
-##### Example
-
-Solve:
-\[
-\begin{cases}
-x + y = 5 \\
-x - y = 1
-\end{cases}
-\]
-
-1. Add the two equations:
-   \[
-   (x + y) + (x - y) = 5 + 1 \Rightarrow 2x = 6 \Rightarrow x = 3
-   \]
-2. Substitute \( x = 3 \) into \( x + y = 5 \): \( 3 + y = 5 \Rightarrow y = 2 \).
-3. **Solution**: \( x = 3 \), \( y = 2 \).
-
-### Systems of Linear Inequalities
-
-A **system of linear inequalities** consists of two or more linear inequalities with the same variables. The solution set is the region of the coordinate plane that satisfies all inequalities in the system.
-
-#### General Form
-
-For a system with two variables, it may look like:
-\[
-\begin{cases}
-a_1x + b_1y \leq c_1 \\
-a_2x + b_2y > c_2
-\end{cases}
-\]
-
-#### Steps to Solve Graphically
+### Steps to Solve Systems of Linear Inequalities
 
 1. **Graph Each Inequality**:
-   - Draw the boundary line for each inequality (dashed for \( < \) or \( > \), solid for \( \leq \) or \( \geq \)).
-   - Shade the region representing the solution to each inequality.
-2. **Identify the Intersection**:
-   - The solution set is where all shaded regions overlap.
+   - Use a solid line for `≤` or `≥`.
+   - Use a dashed line for `<` or `>`.
+   - Shade the appropriate side of each line (above for `>` or `≥`, below for `<` or `≤`).
+
+2. **Identify the Overlapping Region**:
+   - The solution is the intersection of all shaded regions.
 
 #### Example
 
 Solve the system:
-\[
-\begin{cases}
-x + y \leq 5 \\
-x - y > 1
-\end{cases}
-\]
+y > x + 2 y ≤ -2x + 4
 
-1. Graph \( x + y = 5 \) as a solid line and shade below it.
-2. Graph \( x - y = 1 \) as a dashed line and shade above it.
-3. The overlapping shaded region is the solution set.
+1. Graph `y > x + 2` with a dashed line for `y >` and shade above the line.
+2. Graph `y ≤ -2x + 4` with a solid line and shade below the line.
+3. The overlapping shaded region is the solution to the system.
 
-### Real-Life Applications of Systems of Equations and Inequalities
+### Applications of Systems of Inequalities
 
-1. **Business and Finance**: To maximize profits or minimize costs, companies use systems of equations and inequalities to model constraints and make optimal decisions.
+1. **Budget Constraints**: If you have a budget for two types of expenses, you could model each expense as an inequality and solve for the feasible spending region.
 
-2. **Supply and Demand**: Systems of equations can represent relationships between supply and demand, where equilibrium prices are solutions to the system.
-
-3. **Budgeting**: If a budget has constraints (e.g., spending on different categories like rent and food), a system of inequalities can represent these constraints.
+2. **Resource Allocation**: For production or resource limits, systems of inequalities can help determine the feasible quantity of goods to produce without exceeding available resources.
 
 ---
 
-# Chapter 2: Proportional Relationships
+## Summary
 
-## 2.1 Understanding Ratios and Proportions
-
-### What is a Ratio?
-
-A **ratio** is a comparison of two quantities. Ratios can represent relationships in various ways, such as part-to-part, part-to-whole, or even rates.
-
-- Notation: Ratios are written as \( a : b \) or as a fraction \( \frac{a}{b} \).
-- Example: If there are 3 apples and 5 oranges, the ratio of apples to oranges is \( 3:5 \) or \( \frac{3}{5} \).
-
-### Types of Ratios
-
-1. **Part-to-Part Ratios**: Compares two parts of a whole.
-   - Example: In a group with 7 boys and 3 girls, the ratio of boys to girls is \( 7:3 \).
-
-2. **Part-to-Whole Ratios**: Compares one part to the total.
-   - Example: Using the previous group, the ratio of boys to the total group size is \( 7:10 \).
-
-3. **Rates**: A ratio that compares quantities with different units.
-   - Example: If a car travels 60 miles in 2 hours, the rate (speed) is \( \frac{60 \text{ miles}}{2 \text{ hours}} = 30 \text{ miles per hour} \).
-
-### Proportion
-
-A **proportion** is an equation that states two ratios are equal.
-
-- General Form: \( \frac{a}{b} = \frac{c}{d} \)
-- If two ratios form a proportion, the cross-products are equal: \( a \cdot d = b \cdot c \).
-
-#### Solving Proportions
-
-To solve for an unknown in a proportion, use cross-multiplication.
-
-- Example: Solve \( \frac{3}{4} = \frac{x}{8} \).
-  \[
-  3 \cdot 8 = 4 \cdot x \Rightarrow 24 = 4x \Rightarrow x = 6
-  \]
+| Concept                               | Explanation                                            | Example                 |
+|---------------------------------------|--------------------------------------------------------|-------------------------|
+| **Inequality**                        | Mathematical expression with <, >, ≤, or ≥              | `x < 5`                |
+| **Absolute Value**                    | Distance from zero, always non-negative                | `|x| = 5`               |
+| **Compound Inequality**               | Two inequalities joined by "and" or "or"               | `1 < x ≤ 4`            |
+| **System of Equations**               | Two or more equations solved together                  | `y = x + 2; y = -x + 4` |
+| **System of Inequalities**            | Two or more inequalities solved together               | `y > x + 2; y ≤ -2x + 4` |
 
 ---
 
-## 2.2 Properties of Proportional Relationships
+# Squares and Square Roots, Cubes and Cube Roots
 
-### Constant of Proportionality
+## 1. Squares and Square Roots
 
-In a proportional relationship, the ratio between two quantities remains constant. This constant is called the **constant of proportionality**.
+### Definition of Square
 
-- If \( y \) is proportional to \( x \), we write \( y = kx \), where \( k \) is the constant of proportionality.
-- **Finding \( k \)**: \( k = \frac{y}{x} \)
+The **square** of a number is the result of multiplying the number by itself. If **n** is the original number, then the square is represented as:
 
-#### Example
+- **n squared** = n * n = n^2
 
-If a recipe requires 2 cups of flour for every 3 cups of sugar, the constant of proportionality between flour and sugar is:
-\[
-k = \frac{2}{3}
-\]
+For example:
+- 4^2 = 4 * 4 = 16
+- 7^2 = 7 * 7 = 49
 
-### Identifying Proportional Relationships
+### Properties of Squares
 
-To check if a relationship is proportional:
-1. **Find Ratios**: Calculate the ratios of the corresponding quantities.
-2. **Check Consistency**: If all ratios are equal, the relationship is proportional.
+1. **Non-negative Result**: The square of any real number is always non-negative.
+   - For example, (-5)^2 = 25 and (5)^2 = 25.
+   
+2. **Perfect Squares**: Numbers like 1, 4, 9, 16, 25, etc., which are squares of integers, are known as **perfect squares**.
 
-#### Example
+3. **Sum of Odd Numbers**: The square of a number **n** is the sum of the first **n** odd numbers.
+   - For example, 4^2 = 16, and the first four odd numbers (1 + 3 + 5 + 7) sum to 16.
 
-Consider the following table:
+### Calculating Squares
 
-| Quantity \( x \) | Quantity \( y \) |
-|------------------|------------------|
-| 1                | 3                |
-| 2                | 6                |
-| 3                | 9                |
+1. **Traditional Multiplication**: Multiply the number by itself.
+   - Example: 6^2 = 6 * 6 = 36.
 
-Since \( \frac{y}{x} = 3 \) for each pair, \( y \) is proportional to \( x \) with \( k = 3 \).
+2. **Using Algebraic Identities**:
+   - (a + b)^2 = a^2 + 2ab + b^2
+   - (a - b)^2 = a^2 - 2ab + b^2
+   - These can help in quickly calculating squares of numbers close to base values (e.g., squaring numbers close to 10, 50, etc.).
+
+3. **Shortcut for Numbers Ending in 5**: For any number ending in 5, n = (10a + 5)^2 = 100a(a + 1) + 25.
+   - Example: 35^2 = 100 * 3 * (3 + 1) + 25 = 100 * 3 * 4 + 25 = 1225.
+
+### Definition of Square Root
+
+The **square root** of a number is a value that, when multiplied by itself, gives the original number. The square root of **n** is written as √n.
+
+For example:
+- √16 = 4, because 4 * 4 = 16.
+- √49 = 7, because 7 * 7 = 49.
+
+### Properties of Square Roots
+
+1. **Unique Positive Result**: Every non-negative number has a unique positive square root.
+2. **Not Defined for Negative Numbers**: In the real number system, square roots of negative numbers are undefined.
+
+### Calculating Square Roots
+
+1. **Prime Factorization**:
+   - Break the number into its prime factors and pair them.
+   - Example: √36 = √(2 * 2 * 3 * 3) = 2 * 3 = 6.
+
+2. **Estimation and Averaging Method**:
+   - For non-perfect squares, use estimation by finding two numbers between which the square root lies, then average.
+   - Example: To find √20, note that √16 < √20 < √25, so it's between 4 and 5. Refine by averaging to get closer to the exact value.
+
+3. **Long Division Method**:
+   - Useful for precise calculation, especially for large numbers. It involves a digit-by-digit approach similar to long division.
+
+## 2. Cubes and Cube Roots
+
+### Definition of Cube
+
+The **cube** of a number is the result of multiplying the number by itself twice. If **n** is the original number, then the cube is represented as:
+
+- **n cubed** = n * n * n = n^3
+
+For example:
+- 2^3 = 2 * 2 * 2 = 8
+- 5^3 = 5 * 5 * 5 = 125
+
+### Properties of Cubes
+
+1. **Sign Preservation**: The cube of a positive number is positive, and the cube of a negative number is negative.
+   - For example, (-3)^3 = -27 and (3)^3 = 27.
+
+2. **Perfect Cubes**: Numbers like 1, 8, 27, 64, etc., which are cubes of integers, are known as **perfect cubes**.
+
+3. **Sum of Odd Numbers Formula**: The cube of a number **n** can be represented as the sum of a series of odd numbers, starting from 1 and having **n^2** terms.
+   - For example, 3^3 = 27, and the sum of five odd numbers (1 + 3 + 5 + 7 + 9) is 27.
+
+### Calculating Cubes
+
+1. **Traditional Multiplication**: Multiply the number by itself twice.
+   - Example: 4^3 = 4 * 4 * 4 = 64.
+
+2. **Using Algebraic Identities**:
+   - (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3
+   - (a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3
+   - These are useful for calculating cubes of numbers close to base values.
+
+### Definition of Cube Root
+
+The **cube root** of a number is a value that, when multiplied by itself twice, gives the original number. The cube root of **n** is written as ∛n.
+
+For example:
+- ∛27 = 3, because 3 * 3 * 3 = 27.
+- ∛64 = 4, because 4 * 4 * 4 = 64.
+
+### Properties of Cube Roots
+
+1. **Defined for All Real Numbers**: Cube roots are defined for positive, negative, and zero values.
+2. **Unique Real Result**: For every real number, there is a unique real cube root.
+
+### Calculating Cube Roots
+
+1. **Prime Factorization**:
+   - Break the number into its prime factors and group them into triplets.
+   - Example: ∛216 = ∛(2 * 2 * 2 * 3 * 3 * 3) = 2 * 3 = 6.
+
+2. **Estimation Method**:
+   - Find two perfect cubes between which the number lies.
+   - Example: For ∛50, note that ∛27 < ∛50 < ∛64, so the answer is between 3 and 4. Refine by averaging to get closer.
+
+3. **Using a Calculator**:
+   - Calculators are useful for non-perfect cubes and precise results, especially with decimal values.
 
 ---
 
-## 2.3 Graphing Proportional Relationships
+### Summary Table of Key Concepts
 
-### Characteristics of Proportional Graphs
+| Concept             | Definition                                                       | Example Calculation                   |
+|---------------------|------------------------------------------------------------------|---------------------------------------|
+| **Square (n^2)**   | Multiplying a number by itself                                   | 4^2 = 4 * 4 = 16                      |
+| **Square Root (√n)** | Number which, when squared, gives the original number         | √49 = 7                               |
+| **Cube (n^3)**     | Multiplying a number by itself twice                             | 3^3 = 3 * 3 * 3 = 27                  |
+| **Cube Root (∛n)** | Number which, when cubed, gives the original number              | ∛64 = 4                               |
 
-When graphed, proportional relationships are represented by a straight line that passes through the origin \((0, 0)\).
+### Real-Life Applications of Squares and Cubes
 
-- **Equation**: \( y = kx \)
-- **Slope**: The constant of proportionality \( k \) is the slope of the line.
+1. **Area and Volume Calculations**:
+   - Squares are often used to calculate areas of square-shaped spaces.
+   - Cubes are used in volume calculations, like in geometry and engineering.
 
-#### Example
+2. **Physics and Engineering**:
+   - In physics, squares and cubes often appear in formulas for force, energy, and motion.
 
-If \( y = 2x \), the graph is a line passing through the origin with a slope of 2. For every increase of 1 in \( x \), \( y \) increases by 2.
-
-### Real-World Graphing Example
-
-Consider a car traveling at a constant speed of 50 miles per hour. The relationship between time and distance is proportional, where:
-\[
-\text{Distance} = 50 \times \text{Time}
-\]
-The graph is a line with a slope of 50, passing through the origin, representing distance traveled over time.
-
----
-
-## 2.4 Applications of Proportional Relationships
-
-Proportional relationships are used extensively in real-life situations:
-
-1. **Scaling in Recipes**: Doubling or halving ingredients based on serving sizes.
-2. **Converting Units**: Using a constant ratio to convert, e.g., kilometers to miles.
-3. **Distance-Time Relationships**: Speed calculations in physics (e.g., if speed is constant, distance and time are proportional).
-4. **Financial Proportions**: Exchange rates, taxation, or simple interest calculations where one quantity is proportional to another.
+3. **Economics and Biology**:
+   - Growth rates, like population growth or compound interest, can be modeled using exponents and roots, making square and cube concepts applicable.
 
 ---
-
-## Real-Life Example Walkthrough
-
-### Problem: Converting Currency
-
-Suppose you’re traveling and need to exchange USD for EUR. The exchange rate is 1 USD = 0.85 EUR.
-
-#### Setting Up the Proportion
-
-1. Let \( x \) represent the amount in EUR for a given amount in USD.
-2. For 1 USD, \( x = 0.85 \) EUR, which forms the proportional relationship:
-   \[
-   \frac{\text{EUR}}{\text{USD}} = 0.85
-   \]
-3. To find the EUR equivalent for 100 USD:
-   \[
-   \text{EUR} = 0.85 \times 100 = 85
-   \]
-
-So, 100 USD is equal to 85 EUR.
-
----
-
-
-
 
 
 
