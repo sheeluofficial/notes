@@ -111,7 +111,7 @@ The **commutative property** states that the order in which two numbers are adde
   - **Example**: 4 × 6 = 6 × 4 = 24
 
 **Real-Life Application**: 
-- **Addition**: When calculating total distance covered, it doesn't matter if you add morning and evening travel distances in any order.
+- **Addition**: When calculating total distance covered, it doesn’t matter if you add morning and evening travel distances in any order.
 - **Multiplication**: If you need to find the area of a rectangle, you can multiply length by width or width by length; the order doesn’t matter.
 
 ### 2. Associative Property
@@ -182,13 +182,39 @@ The **order of operations** determines the sequence in which different operation
   - Step 1: Solve inside the parentheses (5 + 4 = 9).
   - Step 2: Calculate the exponent 3^2 = 9.
   - Step 3: Multiply and divide from left to right: 6 × 9 = 54 and then 54 ÷ 9 = 6.
-  - Step 4: Add 3 + 6 = 9.
-  - **Result**: 9
+  - Step 4: Add: 3 + 6 = 9.
 
-**Real-Life Application**: The order of operations is used in calculations involving multiple steps, like budgeting, where priority is given to multiplying costs by quantities before summing them.
+### 7. Types of Numbers
+
+#### 1. **Natural Numbers** (ℕ)
+- **Definition**: Positive integers starting from 1 (1, 2, 3, …).
+- **Properties**: Closed under addition and multiplication but not under subtraction or division.
+
+#### 2. **Whole Numbers** (𝕎)
+- **Definition**: Non-negative integers starting from 0 (0, 1, 2, …).
+- **Properties**: Closed under addition and multiplication; includes natural numbers with zero.
+
+#### 3. **Integers** (ℤ)
+- **Definition**: All positive and negative whole numbers, including zero (… -2, -1, 0, 1, 2, …).
+- **Properties**: Closed under addition, subtraction, and multiplication, but not under division.
+
+#### 4. **Rational Numbers** (ℚ)
+- **Definition**: Numbers that can be expressed as a fraction a/b, where a and b are integers and b ≠ 0.
+- **Properties**: Closed under addition, subtraction, multiplication, and division (except division by zero).
+
+#### 5. **Irrational Numbers**
+- **Definition**: Numbers that cannot be expressed as a fraction of two integers (e.g., √2, π).
+- **Properties**: Non-repeating and non-terminating decimal expansions.
+
+#### 6. **Real Numbers** (ℝ)
+- **Definition**: All numbers on the number line, including both rational and irrational numbers.
+- **Properties**: Closed under addition, subtraction, multiplication, and division (except division by zero).
+
+#### 7. **Complex Numbers** (ℂ)
+- **Definition**: Numbers that include real and imaginary parts, expressed as a + bi, where i is the imaginary unit (√-1).
+- **Properties**: Useful in advanced mathematics, engineering, and physics; closed under addition, subtraction, multiplication, and division.
 
 ---
-
 
 ## 1.3 Divisibility Rules
 
@@ -629,120 +655,125 @@ This equation allows us to find one if the other and the product of the two numb
 
 --- 
 
-
 ## 1.6 Fractions and Decimals
 
-### Fractions
+### Understanding Fractions
 
-A **fraction** represents a part of a whole. It is written as two numbers separated by a line, where the top number (numerator) indicates the number of parts and the bottom number (denominator) indicates the total parts that make up a whole.
+A **fraction** is a mathematical representation of a part of a whole. In a fraction, the number above the line is called the **numerator**, which represents how many parts are taken, and the number below the line is the **denominator**, representing the total number of equal parts that make up the whole. Fractions are fundamental in mathematics because they allow us to represent parts of numbers, enabling calculations with partial quantities.
 
-- **Example**: \(\frac{3}{4}\) means 3 out of 4 parts.
+- **Example**: The fraction 3/4 indicates 3 parts out of a total of 4 parts.
 
 ### Types of Fractions
 
-1. **Proper Fractions**: The numerator is smaller than the denominator.
-   - **Example**: \(\frac{3}{5}\)
-2. **Improper Fractions**: The numerator is greater than or equal to the denominator.
-   - **Example**: \(\frac{7}{4}\)
-3. **Mixed Fractions**: A combination of a whole number and a proper fraction.
-   - **Example**: \(1 \frac{3}{4}\)
+1. **Proper Fractions**: These are fractions where the numerator is smaller than the denominator. Since these fractions represent quantities smaller than a whole, they always lie between 0 and 1.
+   - **Example**: 3/5, meaning 3 out of 5 parts.
+   
+2. **Improper Fractions**: Here, the numerator is greater than or equal to the denominator, meaning the fraction represents a value greater than or equal to one whole.
+   - **Example**: 7/4, which is more than 1 whole (or 1 3/4 when converted to a mixed fraction).
+   
+3. **Mixed Fractions**: These are a combination of a whole number and a proper fraction. Mixed fractions are another way to represent improper fractions in a more understandable form.
+   - **Example**: 1 3/4, which means one whole and an additional 3/4.
 
 ### Converting Between Improper and Mixed Fractions
 
+Understanding how to convert between improper and mixed fractions is essential, especially when dealing with real-life problems where mixed fractions are often more intuitive.
+
 - **Improper to Mixed**:
   1. Divide the numerator by the denominator.
-  2. The quotient is the whole number, and the remainder over the denominator is the fraction part.
+  2. The quotient (whole number part) becomes the whole number in the mixed fraction.
+  3. The remainder becomes the new numerator, and the denominator remains the same.
 
-  - **Example**: \(\frac{11}{4} = 2 \frac{3}{4}\)
+   - **Example**: 11/4 = 2 3/4, since 11 divided by 4 is 2 with a remainder of 3.
 
 - **Mixed to Improper**:
   1. Multiply the whole number by the denominator.
-  2. Add the result to the numerator, and place it over the original denominator.
+  2. Add this result to the numerator.
+  3. Write the result over the original denominator.
 
-  - **Example**: \(2 \frac{3}{4} = \frac{11}{4}\)
+   - **Example**: 2 3/4 can be converted to an improper fraction as (2 * 4 + 3) / 4 = 11/4.
 
 ### Operations with Fractions
 
 #### 1. Addition and Subtraction
 
-To add or subtract fractions, the denominators must be the same. If they aren’t, find the **Least Common Denominator (LCD)** and adjust the fractions accordingly.
+To add or subtract fractions, it's essential that the fractions have the same denominator, known as a **common denominator**. This is because fractions with different denominators represent parts of different-sized wholes, which can’t be directly added or subtracted.
 
-- **Addition**: \(\frac{a}{d} + \frac{b}{d} = \frac{a + b}{d}\)
-- **Subtraction**: \(\frac{a}{d} - \frac{b}{d} = \frac{a - b}{d}\)
+1. **Find the Least Common Denominator (LCD)**: This is the smallest multiple common to both denominators.
+2. **Adjust the fractions** so that they share the LCD.
+3. **Add or subtract the numerators** while keeping the common denominator.
 
-  - **Example**: \(\frac{1}{3} + \frac{1}{4}\)
-    - LCD of 3 and 4 is 12.
-    - \(\frac{1}{3} = \frac{4}{12}\) and \(\frac{1}{4} = \frac{3}{12}\)
-    - \(\frac{4}{12} + \frac{3}{12} = \frac{7}{12}\)
+- **Example**: To add 1/3 and 1/4:
+  - Find the LCD of 3 and 4, which is 12.
+  - Convert each fraction: 1/3 = 4/12 and 1/4 = 3/12.
+  - Now, 4/12 + 3/12 = 7/12.
 
 #### 2. Multiplication
 
-To multiply fractions, multiply the numerators together and the denominators together.
+Multiplying fractions is straightforward: multiply the numerators to get the new numerator, and multiply the denominators to get the new denominator. The product represents the part of the whole remaining after multiplication.
 
-- **Formula**: \(\frac{a}{b} \times \frac{c}{d} = \frac{a \times c}{b \times d}\)
+- **Formula**: (a/b) × (c/d) = (a * c) / (b * d)
 
-  - **Example**: \(\frac{2}{3} \times \frac{3}{4} = \frac{6}{12} = \frac{1}{2}\)
+- **Example**: 2/3 × 3/4 = (2 * 3) / (3 * 4) = 6/12 = 1/2.
 
 #### 3. Division
 
-To divide fractions, multiply the first fraction by the reciprocal of the second fraction.
+Dividing fractions involves multiplying the first fraction by the **reciprocal** of the second fraction. The reciprocal of a fraction is obtained by swapping the numerator and denominator.
 
-- **Formula**: \(\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{a \times d}{b \times c}\)
+- **Formula**: (a/b) ÷ (c/d) = (a/b) × (d/c) = (a * d) / (b * c)
 
-  - **Example**: \(\frac{3}{5} \div \frac{2}{7} = \frac{3}{5} \times \frac{7}{2} = \frac{21}{10} = 2 \frac{1}{10}\)
+- **Example**: 3/5 ÷ 2/7 = 3/5 × 7/2 = 21/10 = 2 1/10.
 
 #### Fraction Simplification
 
-To simplify a fraction, divide the numerator and the denominator by their **Greatest Common Divisor (GCD)**.
+Simplifying a fraction means reducing it to its lowest terms by dividing the numerator and denominator by their **Greatest Common Divisor (GCD)**. This step is crucial for clearer, easier-to-manage results.
 
-- **Example**: Simplify \(\frac{12}{16}\)
+- **Example**: Simplify 12/16.
   - GCD of 12 and 16 is 4.
-  - \(\frac{12 \div 4}{16 \div 4} = \frac{3}{4}\)
+  - Divide both the numerator and denominator by 4: 12/16 = 3/4.
 
 ### Decimals
 
-A **decimal** is another way to represent fractions, especially those with denominators that are powers of 10. Decimals are written with a point separating the whole number from the fractional part.
+A **decimal** is a way of expressing a fraction, particularly one with a denominator that is a power of 10 (such as 10, 100, 1000). Decimals are written with a point (called the decimal point) to separate the whole number part from the fractional part. Decimals are widely used in financial and scientific contexts for greater precision and simplicity.
 
-- **Example**: 0.75 represents \(\frac{75}{100}\).
+- **Example**: 0.75 represents the fraction 75/100, which simplifies to 3/4.
 
 ### Types of Decimals
 
-1. **Terminating Decimals**: Decimals that end after a certain number of digits.
-   - **Example**: 0.5, 0.125
-2. **Recurring Decimals**: Decimals in which a digit or group of digits repeats infinitely.
-   - **Example**: 0.333... (can be written as \(0.\overline{3}\)), equivalent to \(\frac{1}{3}\)
+1. **Terminating Decimals**: These are decimals that end after a certain number of digits. They can always be expressed as fractions with denominators that are powers of 10.
+   - **Example**: 0.5, which represents 5/10 or 1/2.
+   
+2. **Recurring Decimals**: These decimals have one or more repeating digits or sequences of digits that continue indefinitely. They are often written with a bar above the repeating section.
+   - **Example**: 0.333... can be written as 0.\overline{3}, which is equivalent to 1/3.
 
 ### Converting Between Fractions and Decimals
 
 #### Fraction to Decimal
 
-1. **Divide the numerator by the denominator** to get a decimal representation.
+To convert a fraction to a decimal:
+1. **Divide the numerator by the denominator** to get a decimal form. 
+2. Identify if the decimal terminates or repeats. If the division does not end, you can either stop after a certain number of decimal places or denote it as a recurring decimal.
 
-   - **Example**: \(\frac{3}{4} = 0.75\)
-
-2. **Recognize patterns** if the division does not terminate (e.g., recurring decimals).
-
-   - **Example**: \(\frac{1}{3} = 0.333...\)
+   - **Example**: 3/4 = 0.75 (terminating), 1/3 = 0.333... (recurring).
 
 #### Decimal to Fraction
 
 1. **For Terminating Decimals**:
    - Count the decimal places.
-   - Use this count to write the decimal as a fraction over a power of 10 and simplify.
+   - Use this count to create the denominator (1 followed by as many zeros as there are decimal places).
+   - Simplify the fraction if possible.
 
-   - **Example**: 0.25 → \(\frac{25}{100} = \frac{1}{4}\)
+   - **Example**: 0.75 has two decimal places, so it’s 75/100, which simplifies to 3/4.
 
 2. **For Recurring Decimals**:
-   - Let \(x\) be the decimal.
-   - Multiply \(x\) by a power of 10 that shifts the recurring part.
-   - Set up an equation to solve for \(x\).
+   - Set up an equation to represent the decimal as a variable (e.g., x = 0.666...).
+   - Multiply both sides to shift the decimal point to the start of the repeating sequence (e.g., 10x = 6.666...).
+   - Subtract to remove the repeating part and solve for the fraction.
 
-   - **Example**: 0.666... = \(0.\overline{6}\)
-     - Let \(x = 0.666...\)
-     - \(10x = 6.666...\)
-     - \(10x - x = 6.666... - 0.666...\)
-     - \(9x = 6\)
-     - \(x = \frac{6}{9} = \frac{2}{3}\)
+   - **Example**: 0.666... = x. Then 10x = 6.666..., so 10x - x = 6, resulting in x = 6/9 = 2/3.
+
+### Summary
+
+Fractions and decimals are crucial for representing and working with parts of a whole. They are two ways of expressing non-integer quantities, and converting between them is an important skill. Mastering operations with fractions and decimals is foundational for more complex math, including algebra, probability, and statistics.
 
 ### Rounding Decimals
 
@@ -763,107 +794,109 @@ A **decimal** is another way to represent fractions, especially those with denom
 
 ---
 
-
 ## 1.7 Percentages
 
 ### Definition of Percentage
 
-A **percentage** is a way of expressing a number as a fraction of 100. The symbol "%" is used to denote a percentage. In mathematics, percentages are a way to express proportions, comparisons, and ratios.
+A **percentage** is a way to express a number as a fraction of 100, denoted by the symbol "%." Percentages are widely used in mathematics and daily life to express proportions, compare quantities, and calculate ratios. This concept allows for easy comparisons and measurements in terms of parts per hundred, making it an essential tool for understanding financial transactions, statistics, and probability.
 
-- **Example**: 50% means 50 out of 100 or \( \frac{50}{100} = 0.5 \).
+- **Example**: 50% means 50 out of 100, which can be expressed as 50/100 or simplified as 0.5.
 
 ### Converting Between Fractions, Decimals, and Percentages
 
-#### 1. Fraction to Percentage
+Understanding how to convert between fractions, decimals, and percentages is important as it helps in various calculations and makes it easier to interpret data across different formats.
+
+#### 1. Converting a Fraction to a Percentage
 
 To convert a fraction to a percentage:
 1. Divide the numerator by the denominator to get a decimal.
-2. Multiply by 100 and add the "%" symbol.
+2. Multiply the result by 100 and add the "%" symbol.
 
-- **Example**: \(\frac{3}{4} = 0.75 \times 100 = 75\%\)
+- **Example**: For 3/4:
+  - 3 divided by 4 is 0.75.
+  - 0.75 multiplied by 100 equals 75%, so 3/4 = 75%.
 
-#### 2. Decimal to Percentage
+#### 2. Converting a Decimal to a Percentage
 
 To convert a decimal to a percentage:
-1. Multiply the decimal by 100 and add the "%" symbol.
+1. Multiply the decimal by 100.
+2. Add the "%" symbol.
 
-- **Example**: \(0.35 \times 100 = 35\%\)
+- **Example**: 0.35 multiplied by 100 equals 35%, so 0.35 = 35%.
 
-#### 3. Percentage to Fraction
+#### 3. Converting a Percentage to a Fraction
 
 To convert a percentage to a fraction:
-1. Write the percentage as a fraction over 100.
+1. Write the percentage as a fraction with 100 as the denominator.
 2. Simplify the fraction if possible.
 
-- **Example**: \(40\% = \frac{40}{100} = \frac{2}{5}\)
+- **Example**: 40% becomes 40/100, which simplifies to 2/5.
 
-#### 4. Percentage to Decimal
+#### 4. Converting a Percentage to a Decimal
 
 To convert a percentage to a decimal:
 1. Divide the percentage by 100.
 
-- **Example**: \(25\% = \frac{25}{100} = 0.25\)
+- **Example**: 25% divided by 100 is 0.25, so 25% = 0.25.
 
 ### Finding Percentages of Numbers
 
 To find a percentage of a number:
-1. Convert the percentage to a decimal.
-2. Multiply the decimal by the number.
+1. Convert the percentage to a decimal by dividing by 100.
+2. Multiply this decimal by the number to get the desired percentage.
 
-- **Example**: 30% of 200
-  - \(30\% = 0.3\)
-  - \(0.3 \times 200 = 60\)
+- **Example**: To find 30% of 200:
+  - Convert 30% to a decimal: 30% = 0.3.
+  - Multiply: 0.3 * 200 = 60.
+  - So, 30% of 200 is 60.
 
 ### Percentage Increase and Decrease
 
-**1. Percentage Increase**: The percentage by which an original amount is increased.
+**1. Percentage Increase**: This represents the percentage by which an initial amount grows. It is used in scenarios like price hikes, population growth, and profit calculations.
 
 - **Formula**:  
-  \[
-  \text{Percentage Increase} = \frac{\text{New Value - Original Value}}{\text{Original Value}} \times 100
-  \]
+  Percentage Increase = ((New Value - Original Value) / Original Value) * 100
 
-- **Example**: Original price = $50, New price = $65
-  - Increase = \(65 - 50 = 15\)
-  - \(\text{Percentage Increase} = \frac{15}{50} \times 100 = 30\%\)
+- **Example**: Original price = $50, New price = $65.
+  - Increase = 65 - 50 = 15.
+  - Percentage Increase = (15 / 50) * 100 = 30%.
 
-**2. Percentage Decrease**: The percentage by which an original amount is reduced.
+**2. Percentage Decrease**: This is the percentage by which an initial amount reduces. It is commonly used for discounts, price drops, and depreciation.
 
-- **Formula**:
-  \[
-  \text{Percentage Decrease} = \frac{\text{Original Value - New Value}}{\text{Original Value}} \times 100
-  \]
+- **Formula**:  
+  Percentage Decrease = ((Original Value - New Value) / Original Value) * 100
 
-- **Example**: Original price = $80, New price = $60
-  - Decrease = \(80 - 60 = 20\)
-  - \(\text{Percentage Decrease} = \frac{20}{80} \times 100 = 25\%\)
+- **Example**: Original price = $80, New price = $60.
+  - Decrease = 80 - 60 = 20.
+  - Percentage Decrease = (20 / 80) * 100 = 25%.
 
 ### Real-Life Applications of Percentages
 
-1. **Discounts in Shopping**: Retailers often offer percentage discounts on items. If an item is 20% off, the customer pays 80% of the original price.
+1. **Discounts in Shopping**: Retailers frequently offer percentage discounts. A discount of 20% off the price means the customer pays 80% of the original price.
 
-   - **Example**: Original price = $100, Discount = 20%
-     - Amount to pay = \(100 - (100 \times 0.2) = 80\)
+   - **Example**: For an item priced at $100 with a 20% discount:
+     - Amount to pay = 100 - (100 * 0.2) = 80.
 
-2. **Interest Rates**: Banks calculate interest as a percentage of the principal amount. The interest rate indicates how much one earns or pays back over a given time period.
+2. **Interest Rates**: Banks use percentages to calculate interest. For instance, a 5% interest rate on a principal amount shows how much will be earned or owed after a certain period.
 
-3. **Tax Calculations**: Taxes are often calculated as a percentage of income or sale prices. A sales tax of 8% on a $50 item adds $4, making the total $54.
+3. **Tax Calculations**: Taxes, such as sales tax, are computed as a percentage of the sale price. If an item is $50 with an 8% sales tax, the tax adds $4, making the total $54.
 
-4. **Population Growth**: Population changes are often measured in percentage terms, indicating growth or decrease over a period.
+4. **Population Growth**: Population growth or decline is often expressed in percentages, which helps to measure demographic changes over time.
 
-   - **Example**: If a town’s population of 10,000 increases by 5%, the new population = \(10,000 + (10,000 \times 0.05) = 10,500\).
+   - **Example**: If a town’s population of 10,000 grows by 5%, the new population is calculated as:
+     - 10,000 + (10,000 * 0.05) = 10,500.
 
 ### Key Formulas
 
-| Concept                   | Formula                                                                 |
-|---------------------------|-------------------------------------------------------------------------|
-| **Percentage of a number**   | \(\text{Percentage} \times \text{Number}\)                         |
-| **Percentage Increase**   | \(\frac{\text{New - Original}}{\text{Original}} \times 100\)           |
-| **Percentage Decrease**   | \(\frac{\text{Original - New}}{\text{Original}} \times 100\)           |
-| **Convert Fraction to %** | \(\frac{\text{Numerator}}{\text{Denominator}} \times 100\)             |
-| **Convert Decimal to %**  | \(\text{Decimal} \times 100\)                                          |
-| **Convert % to Decimal**  | \(\text{Percentage} \div 100\)                                         |
-| **Convert % to Fraction** | Write as fraction over 100, then simplify                              |
+| Concept                       | Formula                                                   |
+|-------------------------------|-----------------------------------------------------------|
+| **Percentage of a Number**    | Percentage * Number                                       |
+| **Percentage Increase**       | ((New Value - Original Value) / Original Value) * 100     |
+| **Percentage Decrease**       | ((Original Value - New Value) / Original Value) * 100     |
+| **Convert Fraction to %**     | (Numerator / Denominator) * 100                           |
+| **Convert Decimal to %**      | Decimal * 100                                             |
+| **Convert % to Decimal**      | Percentage / 100                                          |
+| **Convert % to Fraction**     | Write as a fraction over 100, then simplify if possible   |
 
 ---
 
@@ -872,99 +905,104 @@ To find a percentage of a number:
 
 ### Ratios
 
-A **ratio** is a comparison between two or more quantities. It shows the relative sizes of two values and is written in the form \(a : b\) (read as "a to b") or as a fraction \( \frac{a}{b} \).
+A **ratio** is a comparison between two or more quantities, showing how many times one value contains or is contained within the other. Ratios are typically written in the form "a : b" (read as "a to b") or as a fraction, "a/b." Ratios are essential in mathematics for understanding relationships between quantities, allowing us to express and analyze these relationships.
 
-- **Example**: If there are 2 apples and 3 oranges, the ratio of apples to oranges is \(2 : 3\).
+- **Example**: If there are 2 apples and 3 oranges, the ratio of apples to oranges is 2 : 3, meaning that for every 2 apples, there are 3 oranges.
 
 ### Understanding Ratios
 
-1. **Simplifying Ratios**: Just like fractions, ratios can be simplified by dividing both terms by their Greatest Common Divisor (GCD).
-   - **Example**: The ratio \(10 : 15\) simplifies to \(2 : 3\) (dividing both by 5).
+1. **Simplifying Ratios**: Just like fractions, ratios can be simplified by dividing both terms by their greatest common divisor (GCD). This makes ratios easier to work with and compare.
 
-2. **Equivalent Ratios**: Ratios that represent the same relationship. Multiply or divide both terms of a ratio by the same number to get an equivalent ratio.
-   - **Example**: \(4 : 6\) is equivalent to \(2 : 3\) (dividing both by 2).
+   - **Example**: The ratio 10 : 15 can be simplified by dividing both numbers by their GCD, which is 5, resulting in the simplified ratio 2 : 3.
+
+2. **Equivalent Ratios**: Ratios that express the same relationship are known as equivalent ratios. To find an equivalent ratio, multiply or divide both terms of the ratio by the same non-zero number.
+
+   - **Example**: The ratio 4 : 6 is equivalent to 2 : 3 (dividing both terms by 2), as both ratios represent the same relationship.
 
 ### Types of Ratios
 
-1. **Part-to-Part Ratio**: Compares one part of a group to another part.
-   - **Example**: In a class with 10 boys and 15 girls, the ratio of boys to girls is \(10 : 15\) or \(2 : 3\).
+1. **Part-to-Part Ratio**: This type of ratio compares one part of a group to another part within the same group.
 
-2. **Part-to-Whole Ratio**: Compares one part of a group to the whole group.
-   - **Example**: In the same class of 25 students (10 boys and 15 girls), the ratio of boys to total students is \(10 : 25\) or \(2 : 5\).
+   - **Example**: In a classroom with 10 boys and 15 girls, the ratio of boys to girls is 10 : 15, which simplifies to 2 : 3.
+
+2. **Part-to-Whole Ratio**: This ratio compares one part of a group to the entire group, showing the relationship between a part and the total.
+
+   - **Example**: In the same classroom of 25 students (10 boys and 15 girls), the ratio of boys to total students is 10 : 25, which simplifies to 2 : 5.
 
 ### Real-Life Applications of Ratios
 
-1. **Recipes**: Ratios are often used to maintain consistency in recipes. For example, a pasta sauce might require a 1:3 ratio of tomato paste to water.
+1. **Recipes**: Ratios are commonly used in cooking to maintain the correct proportion of ingredients. For example, a pasta sauce might require a 1 : 3 ratio of tomato paste to water, which can be scaled up or down depending on the number of servings.
 
-2. **Map Scales**: Maps often use ratios to represent scale (e.g., 1 cm : 100 km).
+2. **Map Scales**: Maps often use ratios to represent scale, such as 1 cm : 100 km, meaning 1 cm on the map represents 100 km in real life.
 
-3. **Financial Analysis**: Ratios are used to assess financial health, such as the debt-to-income ratio or profit margin ratio.
+3. **Financial Ratios**: Ratios are used in finance to assess a company's health, such as the debt-to-income ratio or profit margin ratio, offering insights into financial stability.
 
 ### Proportions
 
-A **proportion** is an equation that states that two ratios are equal. It shows that two ratios or fractions represent the same relationship.
+A **proportion** is an equation that states that two ratios are equal, showing that two fractions or ratios represent the same relationship. Proportions are used to solve problems involving equivalent ratios.
 
-- **Example**: If \( \frac{2}{3} = \frac{4}{6}\), then \(2 : 3\) and \(4 : 6\) are proportional.
+- **Example**: The ratios 2 : 3 and 4 : 6 form a proportion because they express the same relationship. This can be written as 2/3 = 4/6.
 
 ### Solving Proportions
 
-To check if two ratios form a proportion or to solve for a missing term in a proportion, use **cross-multiplication**.
+To determine if two ratios form a proportion or to solve for a missing term in a proportion, use **cross-multiplication**. This technique involves multiplying the terms of each ratio diagonally and checking for equality.
 
 1. **Cross-Multiplication**:
-   - If \( \frac{a}{b} = \frac{c}{d}\), then \(a \times d = b \times c\).
-   - **Example**: \(\frac{2}{3} = \frac{4}{6}\)
-     - \(2 \times 6 = 3 \times 4\)
-     - \(12 = 12\), so the ratios are proportional.
+   - If two ratios are in proportion, say a/b = c/d, then cross-multiplying gives a * d = b * c.
+   - **Example**: For the proportion 2/3 = 4/6, cross-multiplying gives 2 * 6 = 3 * 4, which is 12 = 12, confirming that the ratios are proportional.
 
-2. **Solving for Unknown**:
-   - To find a missing term in a proportion, set up the equation with cross-multiplication and solve for the unknown.
-   - **Example**: \(\frac{3}{4} = \frac{x}{8}\)
-     - \(3 \times 8 = 4 \times x\)
-     - \(24 = 4x\)
-     - \(x = 6\)
+2. **Solving for an Unknown**:
+   - To find a missing term in a proportion, set up an equation using cross-multiplication and then solve for the unknown term.
+
+   - **Example**: Given 3/4 = x/8, we can cross-multiply to solve for x:
+     - Multiply 3 * 8 = 4 * x, which simplifies to 24 = 4x, so x = 6.
 
 ### Direct and Inverse Proportion
 
-1. **Direct Proportion**: Two quantities are directly proportional if one increases when the other increases at the same rate. Represented as \(y = kx\), where \(k\) is the constant of proportionality.
+1. **Direct Proportion**: Two quantities are directly proportional if one quantity increases or decreases in direct relation to the other. This relationship can be represented as y = k * x, where k is the constant of proportionality.
 
-   - **Example**: If 1 book costs $5, then the cost \(y\) of \(x\) books is given by \(y = 5x\). So, 3 books cost \(3 \times 5 = 15\).
+   - **Example**: If 1 book costs $5, then the cost y of x books is given by y = 5 * x. For 3 books, the cost is 3 * 5 = 15.
 
-2. **Inverse Proportion**: Two quantities are inversely proportional if one increases when the other decreases. Represented as \(y = \frac{k}{x}\).
+2. **Inverse Proportion**: Two quantities are inversely proportional if one increases when the other decreases, meaning their product remains constant. This relationship can be represented as y = k/x, where k is a constant.
 
-   - **Example**: If a job can be completed by 4 workers in 8 hours, it would take 2 workers 16 hours, as they work inversely proportionally to the time.
+   - **Example**: If 4 workers can complete a job in 8 hours, then reducing the number of workers to 2 would increase the time needed to 16 hours, as the number of workers and time are inversely proportional.
 
 ### Solving Direct and Inverse Proportion Problems
 
 #### Direct Proportion
 
-1. Identify if the relationship is direct.
-2. Set up the formula \(y = kx\) and solve for \(k\) if needed.
-3. Substitute values to find unknowns.
+1. Identify if the relationship is direct by determining whether an increase in one quantity leads to an increase in the other.
+2. Use the formula y = k * x, and solve for k if necessary.
+3. Substitute values to find unknown quantities.
 
-   - **Example**: A car travels 60 km in 2 hours. How far will it travel in 5 hours?
+   - **Example**: If a car travels 60 km in 2 hours, we can determine how far it will travel in 5 hours.
      - Distance and time are directly proportional.
-     - \(60 = k \times 2\), so \(k = 30\).
-     - In 5 hours: \(y = 30 \times 5 = 150\) km.
+     - Solve for k: 60 = k * 2, so k = 30.
+     - In 5 hours, y = 30 * 5 = 150 km.
 
 #### Inverse Proportion
 
-1. Identify if the relationship is inverse.
-2. Use \(y = \frac{k}{x}\) and solve for \(k\) if necessary.
-3. Substitute values to find unknowns.
+1. Determine if the relationship is inverse by checking if an increase in one quantity causes a decrease in the other.
+2. Use the formula y = k/x and solve for k if necessary.
+3. Substitute values to solve for unknowns.
 
    - **Example**: If 4 people can paint a house in 6 days, how long would it take for 8 people?
-     - Work rate and time are inversely proportional.
-     - \(4 \times 6 = 8 \times y\)
-     - \(24 = 8y\), so \(y = 3\).
-     - It would take 3 days for 8 people to complete the job.
+     - Time and number of workers are inversely proportional.
+     - Calculate k: k = 4 * 6 = 24.
+     - For 8 workers, y = 24/8 = 3 days.
 
-### Key Formulas and Concepts
+### Summary Table of Key Concepts and Formulas
 
-| Concept               | Formula                                  |
-|-----------------------|------------------------------------------|
-| **Cross-Multiplication** | If \(\frac{a}{b} = \frac{c}{d}\), then \(a \times d = b \times c\) |
-| **Direct Proportion** | \(y = kx\), where \(k\) is a constant    |
-| **Inverse Proportion** | \(y = \frac{k}{x}\), where \(k\) is a constant |
+| Concept                      | Formula                                | Explanation                                                          |
+|------------------------------|----------------------------------------|----------------------------------------------------------------------|
+| **Ratio**                    | a : b or a/b                           | Compares two quantities                                              |
+| **Simplifying Ratio**        | Divide both terms by GCD               | Simplifies the ratio for easier comparison                           |
+| **Equivalent Ratios**        | Multiply/divide both terms by same number | Ratios that represent the same relationship                          |
+| **Proportion**               | a/b = c/d                              | Shows that two ratios are equal                                      |
+| **Cross-Multiplication**     | a * d = b * c                          | Used to verify or solve proportions                                  |
+| **Direct Proportion**        | y = k * x                              | Increase or decrease in one quantity causes the same in the other    |
+| **Inverse Proportion**       | y = k / x                              | Increase in one quantity causes a decrease in the other              |
+| **Solve for Unknown in Ratio**| Use cross-multiplication              | Set up an equation and solve for the missing term                    |
 
 ---
 
@@ -972,332 +1010,174 @@ To check if two ratios form a proportion or to solve for a missing term in a pro
 
 ### Definition of Exponents
 
-An **exponent** refers to the number of times a number (called the **base**) is multiplied by itself. It is written as a small number above and to the right of the base. 
+An **exponent** refers to the number of times a number (called the **base**) is multiplied by itself. It is written as a small number above and to the right of the base.
 
-- **Notation**: \(a^n\) where:
-  - \(a\) is the **base**.
-  - \(n\) is the **exponent** (or **power**), which tells us how many times the base is multiplied by itself.
-  
-- **Example**: \(5^3 = 5 \times 5 \times 5 = 125\).
+- **Notation**: a^n, where:
+  - **a** is the **base**.
+  - **n** is the **exponent** (or **power**), which tells us how many times the base is multiplied by itself.
+
+- **Example**: 5^3 = 5 * 5 * 5 = 125.
 
 ### Key Terminology
 
 - **Base**: The number being multiplied.
 - **Exponent (or Power)**: The number indicating how many times the base is multiplied.
-- **Expression**: The combination of a base and an exponent (e.g., \(2^4\)).
+- **Expression**: The combination of a base and an exponent (e.g., 2^4).
 
 ### Rules of Exponents
 
 1. **Product Rule**: When multiplying two powers with the same base, add their exponents.
 
-   \[
-   a^m \times a^n = a^{m+n}
-   \]
-
-   - **Example**: \(3^2 \times 3^4 = 3^{2+4} = 3^6 = 729\)
+   - Formula: a^m * a^n = a^(m+n)
+   - **Example**: 3^2 * 3^4 = 3^(2+4) = 3^6 = 729
 
 2. **Quotient Rule**: When dividing two powers with the same base, subtract their exponents.
 
-   \[
-   \frac{a^m}{a^n} = a^{m-n}
-   \]
-
-   - **Example**: \(\frac{5^5}{5^2} = 5^{5-2} = 5^3 = 125\)
+   - Formula: a^m / a^n = a^(m-n)
+   - **Example**: 5^5 / 5^2 = 5^(5-2) = 5^3 = 125
 
 3. **Power of a Power Rule**: When raising a power to another power, multiply the exponents.
 
-   \[
-   (a^m)^n = a^{m \times n}
-   \]
-
-   - **Example**: \((2^3)^4 = 2^{3 \times 4} = 2^{12} = 4096\)
+   - Formula: (a^m)^n = a^(m * n)
+   - **Example**: (2^3)^4 = 2^(3 * 4) = 2^12 = 4096
 
 4. **Power of a Product Rule**: When raising a product to a power, apply the exponent to each factor.
 
-   \[
-   (ab)^n = a^n \times b^n
-   \]
-
-   - **Example**: \((3 \times 4)^2 = 3^2 \times 4^2 = 9 \times 16 = 144\)
+   - Formula: (a * b)^n = a^n * b^n
+   - **Example**: (3 * 4)^2 = 3^2 * 4^2 = 9 * 16 = 144
 
 5. **Power of a Quotient Rule**: When raising a quotient to a power, apply the exponent to both the numerator and the denominator.
 
-   \[
-   \left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}
-   \]
-
-   - **Example**: \(\left(\frac{6}{3}\right)^2 = \frac{6^2}{3^2} = \frac{36}{9} = 4\)
+   - Formula: (a / b)^n = a^n / b^n
+   - **Example**: (6 / 3)^2 = 6^2 / 3^2 = 36 / 9 = 4
 
 6. **Zero Exponent Rule**: Any base (except 0) raised to the power of zero is equal to 1.
 
-   \[
-   a^0 = 1
-   \]
-
-   - **Example**: \(7^0 = 1\)
+   - Formula: a^0 = 1
+   - **Example**: 7^0 = 1
 
 7. **Negative Exponent Rule**: A negative exponent represents the reciprocal of the base raised to the opposite positive exponent.
 
-   \[
-   a^{-n} = \frac{1}{a^n}
-   \]
-
-   - **Example**: \(4^{-2} = \frac{1}{4^2} = \frac{1}{16}\)
+   - Formula: a^(-n) = 1 / a^n
+   - **Example**: 4^(-2) = 1 / 4^2 = 1 / 16
 
 ### Fractional Exponents
 
 Fractional exponents indicate roots. The numerator represents the power, and the denominator represents the root.
 
-\[
-a^{\frac{m}{n}} = \sqrt[n]{a^m}
-\]
-
-- **Example**: \(8^{\frac{2}{3}} = \sqrt[3]{8^2} = \sqrt[3]{64} = 4\)
+- Formula: a^(m/n) = n-th root of (a^m)
+- **Example**: 8^(2/3) = 3rd root of (8^2) = 3rd root of 64 = 4
 
 ### Scientific Notation
 
 **Scientific notation** is a way of expressing very large or very small numbers using exponents. It is written in the form:
-\[
-a \times 10^n
-\]
-where \(a\) is a number between 1 and 10, and \(n\) is an integer.
+a * 10^n, where **a** is a number between 1 and 10, and **n** is an integer.
 
-- **Example**: The speed of light is approximately \(3 \times 10^8\) m/s.
+- **Example**: The speed of light is approximately 3 * 10^8 m/s.
 
 ### Real-Life Applications of Exponents
 
-1. **Population Growth**: Population growth can be modeled exponentially. If a population doubles every year, it can be represented as \(P \times 2^n\) where \(n\) is the number of years.
+1. **Population Growth**: Population growth can be modeled exponentially. If a population doubles every year, it can be represented as P * 2^n, where **n** is the number of years.
 
 2. **Compound Interest**: In finance, compound interest grows according to an exponential function. The formula for compound interest is:
    
-   \[
-   A = P(1 + \frac{r}{n})^{nt}
-   \]
+   - Formula: A = P * (1 + r/n)^(n*t)
+   - Where **A** is the accumulated amount, **P** is the principal, **r** is the interest rate, **n** is the number of times interest is compounded per year, and **t** is the number of years.
 
-   where \(A\) is the amount of money accumulated, \(P\) is the principal, \(r\) is the interest rate, \(n\) is the number of times interest is compounded per year, and \(t\) is the number of years.
-
-3. **Physics**: Exponential decay models in physics, such as radioactive decay, follow the formula \(A = A_0 e^{-\lambda t}\), where \(\lambda\) is the decay constant.
+3. **Physics**: Exponential decay models in physics, such as radioactive decay, follow the formula A = A_0 * e^(-λ * t), where λ is the decay constant.
 
 ### Key Formulas and Concepts
 
-| Concept                         | Formula                                                |
-|---------------------------------|--------------------------------------------------------|
-| **Product Rule**                | \(a^m \times a^n = a^{m+n}\)                           |
-| **Quotient Rule**               | \(\frac{a^m}{a^n} = a^{m-n}\)                          |
-| **Power of a Power Rule**       | \((a^m)^n = a^{m \times n}\)                           |
-| **Power of a Product Rule**     | \((ab)^n = a^n \times b^n\)                            |
-| **Power of a Quotient Rule**    | \(\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}\)       |
-| **Zero Exponent Rule**          | \(a^0 = 1\)                                           |
-| **Negative Exponent Rule**      | \(a^{-n} = \frac{1}{a^n}\)                             |
-| **Fractional Exponent Rule**    | \(a^{\frac{m}{n}} = \sqrt[n]{a^m}\)                    |
-| **Scientific Notation**         | \(a \times 10^n\) where \(1 \leq a < 10\), \(n\) integer |
+| Concept                      | Formula                                | Explanation                                                          |
+|------------------------------|----------------------------------------|----------------------------------------------------------------------|
+| **Product Rule**             | a^m * a^n = a^(m+n)                    | Multiply powers with the same base by adding exponents               |
+| **Quotient Rule**            | a^m / a^n = a^(m-n)                    | Divide powers with the same base by subtracting exponents            |
+| **Power of a Power**         | (a^m)^n = a^(m*n)                      | Raise a power to another power by multiplying exponents              |
+| **Zero Exponent Rule**       | a^0 = 1                                | Any number to the power of 0 is 1                                    |
+| **Negative Exponent Rule**   | a^(-n) = 1 / a^n                       | Negative exponent indicates reciprocal                               |
+| **Fractional Exponents**     | a^(m/n) = n-th root of (a^m)           | Indicates roots; numerator is power, denominator is root             |
+| **Scientific Notation**      | a * 10^n                               | Expresses very large or small numbers in terms of powers of 10       |
+
 
 ---
 
 ## 1.1 Types of Equations
 
-Equations are mathematical statements that show the equality between two expressions using an equal sign \(=\). They allow us to find unknown values and solve real-world problems. Different types of equations are used for various applications in algebra, science, and engineering. Below, we cover the primary types of equations and their unique characteristics.
+Equations are mathematical statements that show the equality between two expressions using an equal sign (=). They allow us to find unknown values and solve real-world problems. Different types of equations are used for various applications in algebra, science, and engineering. Below, we cover the primary types of equations and their unique characteristics.
 
 ### Types of Equations
 
 1. **Linear Equations**
    - **Definition**: An equation that represents a straight line when graphed and has variables with an exponent of 1.
-   - **General Form**: \(ax + b = c\) where \(a\), \(b\), and \(c\) are constants, and \(x\) is the variable.
-   - **Example**: \(3x + 2 = 11\) is a linear equation.
+   - **General Form**: ax + b = c, where a, b, and c are constants, and x is the variable.
+   - **Example**: 3x + 2 = 11 is a linear equation.
    - **Characteristics**: 
-     - Solution involves isolating \(x\) to find a single value.
+     - Solution involves isolating x to find a single value.
      - Has only one variable (in one-dimensional cases).
      - Graph is a straight line.
 
 2. **Quadratic Equations**
    - **Definition**: An equation where the highest power of the variable is 2. These equations form a parabola when graphed.
-   - **General Form**: \(ax^2 + bx + c = 0\) where \(a\), \(b\), and \(c\) are constants, and \(a \neq 0\).
-   - **Example**: \(2x^2 - 4x - 6 = 0\).
+   - **General Form**: ax^2 + bx + c = 0, where a, b, and c are constants, and a ≠ 0.
+   - **Example**: 2x^2 - 4x - 6 = 0.
    - **Characteristics**: 
      - May have two real solutions, one real solution, or two complex solutions.
      - Can be solved using factoring, completing the square, or the quadratic formula:
-       \[
-       x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-       \]
+       - x = (-b ± √(b^2 - 4ac)) / 2a
 
 3. **Polynomial Equations**
    - **Definition**: An equation involving a polynomial, where the variable has non-negative integer exponents.
-   - **General Form**: \(a_nx^n + a_{n-1}x^{n-1} + \dots + a_1x + a_0 = 0\) where \(n\) is a positive integer.
-   - **Example**: \(x^3 - 2x^2 + x - 1 = 0\).
+   - **General Form**: a_n*x^n + a_(n-1)*x^(n-1) + ... + a_1*x + a_0 = 0, where n is a positive integer.
+   - **Example**: x^3 - 2x^2 + x - 1 = 0.
    - **Characteristics**: 
      - Degree (highest exponent) of the polynomial determines the maximum number of solutions.
      - May have real or complex roots depending on the degree and coefficients.
 
 4. **Rational Equations**
    - **Definition**: An equation containing one or more fractions with variables in the denominator.
-   - **General Form**: \(\frac{P(x)}{Q(x)} = 0\) where \(P(x)\) and \(Q(x)\) are polynomials, and \(Q(x) \neq 0\).
-   - **Example**: \(\frac{x + 2}{x - 1} = 3\).
+   - **General Form**: (P(x)) / (Q(x)) = 0, where P(x) and Q(x) are polynomials, and Q(x) ≠ 0.
+   - **Example**: (x + 2) / (x - 1) = 3.
    - **Characteristics**: 
      - Often solved by finding a common denominator and eliminating the fractions.
      - Solution may involve restrictions where the denominator equals zero, as this is undefined.
 
 5. **Radical Equations**
    - **Definition**: An equation that includes a square root, cube root, or higher roots of a variable.
-   - **General Form**: \(\sqrt[n]{x} = a\) or \(x^{1/n} = a\).
-   - **Example**: \(\sqrt{x + 4} = 5\).
+   - **General Form**: √[n]{x} = a or x^(1/n) = a.
+   - **Example**: √(x + 4) = 5.
    - **Characteristics**: 
      - Solved by isolating the radical and then raising both sides to the power that matches the root.
      - Requires checking for extraneous solutions, as squaring both sides can introduce invalid answers.
 
 6. **Exponential Equations**
    - **Definition**: An equation where the variable appears in the exponent.
-   - **General Form**: \(a \cdot b^x = c\).
-   - **Example**: \(3 \cdot 2^x = 24\).
+   - **General Form**: a * b^x = c.
+   - **Example**: 3 * 2^x = 24.
    - **Characteristics**: 
      - Typically solved by isolating the exponential term and applying logarithms.
      - Commonly used in real-life problems involving growth or decay, such as population growth or radioactive decay.
 
 7. **Logarithmic Equations**
    - **Definition**: An equation that includes a logarithm with a variable inside.
-   - **General Form**: \(\log_b(x) = c\) where \(b\) is the base of the logarithm.
-   - **Example**: \(\log_2(x + 1) = 3\).
+   - **General Form**: log_b(x) = c, where b is the base of the logarithm.
+   - **Example**: log_2(x + 1) = 3.
    - **Characteristics**: 
      - Solved by rewriting in exponential form or using properties of logarithms.
      - Useful in solving equations related to exponential decay and in scientific applications.
 
 ### Summary Table of Equation Types
 
-| Type                | General Form                          | Key Solution Method                                    | Example               |
-|---------------------|---------------------------------------|--------------------------------------------------------|-----------------------|
-| **Linear**          | \(ax + b = c\)                       | Isolate variable                                       | \(3x + 2 = 11\)      |
-| **Quadratic**       | \(ax^2 + bx + c = 0\)                | Factoring, Quadratic formula                           | \(2x^2 - 4x - 6 = 0\) |
-| **Polynomial**      | \(a_nx^n + \dots + a_0 = 0\)         | Factoring, Synthetic division                          | \(x^3 - 2x^2 + x = 0\) |
-| **Rational**        | \(\frac{P(x)}{Q(x)} = 0\)            | Clear fractions, Restrict domain                       | \(\frac{x+2}{x-1} = 3\) |
-| **Radical**         | \(\sqrt[n]{x} = a\)                  | Isolate radical, Raise to power                        | \(\sqrt{x + 4} = 5\)  |
-| **Exponential**     | \(a \cdot b^x = c\)                  | Use logarithms                                         | \(3 \cdot 2^x = 24\)  |
-| **Logarithmic**     | \(\log_b(x) = c\)                    | Rewrite as exponent, Apply properties of logarithms    | \(\log_2(x + 1) = 3\) |
+| Type                | General Form                           | Key Solution Method                                    | Example               |
+|---------------------|----------------------------------------|--------------------------------------------------------|-----------------------|
+| **Linear**          | ax + b = c                             | Isolate variable                                       | 3x + 2 = 11           |
+| **Quadratic**       | ax^2 + bx + c = 0                      | Factoring, Quadratic formula                           | 2x^2 - 4x - 6 = 0     |
+| **Polynomial**      | a_n*x^n + ... + a_0 = 0                | Factoring, Synthetic division                          | x^3 - 2x^2 + x = 0    |
+| **Rational**        | (P(x)) / (Q(x)) = 0                    | Clear fractions, Restrict domain                       | (x + 2) / (x - 1) = 3 |
+| **Radical**         | √[n]{x} = a                            | Isolate radical, Raise to power                        | √(x + 4) = 5          |
+| **Exponential**     | a * b^x = c                            | Use logarithms                                         | 3 * 2^x = 24          |
+| **Logarithmic**     | log_b(x) = c                           | Rewrite as exponent, Apply properties of logarithms    | log_2(x + 1) = 3      |
 
 ---
-
-## 1.2 Solving Linear Equations
-
-### What is a Linear Equation?
-
-A **linear equation** is an equation where the variable is raised only to the power of 1, meaning there are no exponents, square roots, or other non-linear operations on the variable. The equation represents a straight line when plotted on a graph.
-
-The **standard form** of a linear equation in one variable is:
-\[
-ax + b = c
-\]
-where:
-- \( a \), \( b \), and \( c \) are constants,
-- \( x \) is the variable.
-
-### Steps for Solving Linear Equations
-
-To solve a linear equation, our goal is to **isolate the variable** (typically \( x \)) on one side of the equation. Here’s a step-by-step process:
-
-1. **Simplify Both Sides**:
-   - Distribute any terms if there are parentheses.
-   - Combine like terms on each side of the equation.
-
-2. **Move Terms with Variables to One Side**:
-   - Use addition or subtraction to get all terms containing the variable on one side of the equation and constants on the other.
-
-3. **Isolate the Variable**:
-   - Divide or multiply to solve for the variable.
-
-4. **Check Your Solution**:
-   - Substitute your solution back into the original equation to verify.
-
-#### Example Walkthroughs
-
-1. **Simple Linear Equation**
-
-   Solve for \( x \) in the equation:
-   \[
-   3x + 5 = 11
-   \]
-
-   - Step 1: Subtract 5 from both sides:
-     \[
-     3x = 6
-     \]
-   - Step 2: Divide by 3 to isolate \( x \):
-     \[
-     x = 2
-     \]
-   - **Solution**: \( x = 2 \)
-   - **Verification**: Substitute \( x = 2 \) back into the original equation:
-     \[
-     3(2) + 5 = 11 \Rightarrow 6 + 5 = 11
-     \]
-     The solution is correct.
-
-2. **Equation with Variables on Both Sides**
-
-   Solve for \( x \) in the equation:
-   \[
-   4x + 3 = 2x + 11
-   \]
-
-   - Step 1: Move \( 2x \) from the right to the left by subtracting \( 2x \) from both sides:
-     \[
-     2x + 3 = 11
-     \]
-   - Step 2: Subtract 3 from both sides:
-     \[
-     2x = 8
-     \]
-   - Step 3: Divide by 2 to isolate \( x \):
-     \[
-     x = 4
-     \]
-   - **Solution**: \( x = 4 \)
-   - **Verification**: Substitute \( x = 4 \) back into the original equation:
-     \[
-     4(4) + 3 = 2(4) + 11 \Rightarrow 16 + 3 = 8 + 11 \Rightarrow 19 = 19
-     \]
-     The solution is verified.
-
-3. **Equation with Parentheses**
-
-   Solve for \( x \) in the equation:
-   \[
-   2(x + 4) = 3x - 6
-   \]
-
-   - Step 1: Distribute 2 on the left side:
-     \[
-     2x + 8 = 3x - 6
-     \]
-   - Step 2: Move \( 2x \) to the right by subtracting \( 2x \) from both sides:
-     \[
-     8 = x - 6
-     \]
-   - Step 3: Add 6 to both sides to isolate \( x \):
-     \[
-     x = 14
-     \]
-   - **Solution**: \( x = 14 \)
-   - **Verification**: Substitute \( x = 14 \) back into the original equation:
-     \[
-     2(14 + 4) = 3(14) - 6 \Rightarrow 2(18) = 42 - 6 \Rightarrow 36 = 36
-     \]
-     The solution is verified.
-
-### Real-Life Applications of Linear Equations
-
-1. **Budgeting**: Suppose you have a budget of $500, and you’ve already spent $150. The equation \( 150 + x = 500 \) can be used to find how much more you can spend, where \( x \) is the remaining budget.
-
-2. **Travel Distance**: If a car travels at a constant speed of 60 km/h and has already traveled 120 km, you can find the remaining distance to a 300 km destination using \( 120 + 60t = 300 \), where \( t \) is the time left in hours.
-
-### Summary of Techniques
-
-| Technique                       | Description                                               |
-|---------------------------------|-----------------------------------------------------------|
-| **Combine Like Terms**          | Add or subtract similar terms on the same side.           |
-| **Move Variables to One Side**  | Use addition/subtraction to gather variables on one side. |
-| **Isolate the Variable**        | Divide/multiply to solve for the variable.                |
-| **Check Solution**              | Substitute solution back to verify accuracy.              |
-
----
-
 
 ## 1.3 Solving Inequalities
 
