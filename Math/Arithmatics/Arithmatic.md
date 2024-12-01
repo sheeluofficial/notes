@@ -3,7 +3,7 @@
 ## 1.1 Numbers and Basic Operations
 
 ### Types of Numbers
-
+   ![Types of numbers](../../assets/types-of-numbers.png)
 1. **Natural Numbers**:
    - **Definition**: The set of positive counting numbers starting from 1 and continuing indefinitely. They are represented by N.
    - **Example**: 1, 2, 3, 4, etc.
@@ -1509,145 +1509,167 @@ y > x + 2 y ≤ -2x + 4
 
 ### Definition of Square
 
-The **square** of a number is the result of multiplying the number by itself. If **n** is the original number, then the square is represented as:
+The **square** of a number is the result of multiplying the number by itself. If **n** is the original number:
 
-- **n squared** = n * n = n^2
+- **n squared** = n × n = n²
 
 For example:
-- 4^2 = 4 * 4 = 16
-- 7^2 = 7 * 7 = 49
+- 15² = 15 × 15 = 225
+- 72² = 72 × 72 = 5184
+
+---
 
 ### Properties of Squares
 
 1. **Non-negative Result**: The square of any real number is always non-negative.
-   - For example, (-5)^2 = 25 and (5)^2 = 25.
-   
-2. **Perfect Squares**: Numbers like 1, 4, 9, 16, 25, etc., which are squares of integers, are known as **perfect squares**.
+   - Example: (-13)² = 169 and (13)² = 169.
+
+2. **Perfect Squares**: Numbers like 1, 4, 9, 16, 25, etc., which are squares of integers, are called **perfect squares**.
 
 3. **Sum of Odd Numbers**: The square of a number **n** is the sum of the first **n** odd numbers.
-   - For example, 4^2 = 16, and the first four odd numbers (1 + 3 + 5 + 7) sum to 16.
+   - Example: 6² = 36, and the sum of the first six odd numbers (1 + 3 + 5 + 7 + 9 + 11) is 36.
 
-### Calculating Squares
+---
 
-1. **Traditional Multiplication**: Multiply the number by itself.
-   - Example: 6^2 = 6 * 6 = 36.
+### Techniques for Calculating Squares (SSC CGL Style)
 
-2. **Using Algebraic Identities**:
-   - (a + b)^2 = a^2 + 2ab + b^2
-   - (a - b)^2 = a^2 - 2ab + b^2
-   - These can help in quickly calculating squares of numbers close to base values (e.g., squaring numbers close to 10, 50, etc.).
+#### 1. **Traditional Multiplication**
+   Multiply the number by itself.
+   - Example: 84² = 84 × 84 = 7056.
 
-3. **Shortcut for Numbers Ending in 5**: For any number ending in 5, n = (10a + 5)^2 = 100a(a + 1) + 25.
-   - Example: 35^2 = 100 * 3 * (3 + 1) + 25 = 100 * 3 * 4 + 25 = 1225.
+---
+
+#### 2. **Using Algebraic Identities**
+   - **(a + b)² = a² + 2ab + b²**
+     - Example: 47²:
+       - Let 47 = (40 + 7).
+       - Apply formula: 47² = 40² + 2 × 40 × 7 + 7².
+       - 40² = 1600, 2 × 40 × 7 = 560, 7² = 49.
+       - Total = 1600 + 560 + 49 = 2209.
+
+   - **(a - b)² = a² - 2ab + b²**
+     - Example: 93²:
+       - Let 93 = (100 - 7).
+       - Apply formula: 93² = 100² - 2 × 100 × 7 + 7².
+       - 100² = 10000, 2 × 100 × 7 = 1400, 7² = 49.
+       - Total = 10000 - 1400 + 49 = 8649.
+
+---
+
+#### 3. **Shortcut for Numbers Ending in 5**
+   For any number ending in 5, **n² = 100 × a × (a + 1) + 25**, where **a** is the number before 5.
+   - Example: 85²:
+     - Let a = 8.
+     - Apply formula: 85² = 100 × 8 × (8 + 1) + 25.
+     - 8 × 9 = 72, 100 × 72 = 7200, 7200 + 25 = 7225.
+
+---
+
+#### 4. **Difference of Squares**
+   If you know the square of a nearby number, use:
+   - **n² = (a + b)(a - b) + b²**.
+
+   - Example: 39²:
+     - Use 40² (nearby number).
+     - 39² = 40² - 40 - 39 + 1².
+     - 40² = 1600, so 1600 - 40 - 39 = 1521.
+
+---
 
 ### Definition of Square Root
 
-The **square root** of a number is a value that, when multiplied by itself, gives the original number. The square root of **n** is written as √n.
+The **square root** of a number is a value that, when multiplied by itself, gives the original number. It is written as **√n**.
 
 For example:
-- √16 = 4, because 4 * 4 = 16.
-- √49 = 7, because 7 * 7 = 49.
+- √144 = 12, because 12 × 12 = 144.
+- √961 = 31, because 31 × 31 = 961.
 
-### Properties of Square Roots
+---
 
-1. **Unique Positive Result**: Every non-negative number has a unique positive square root.
-2. **Not Defined for Negative Numbers**: In the real number system, square roots of negative numbers are undefined.
+### Techniques for Calculating Square Roots (SSC CGL Style)
 
-### Calculating Square Roots
+#### 1. **Prime Factorization**
+   Break the number into its prime factors and pair them:
+   - Example: √324:
+     - Prime factorization of 324: 324 = 2 × 2 × 3 × 3 × 3 × 3.
+     - Group into pairs: (2 × 2), (3 × 3), (3 × 3).
+     - Take one number from each pair: 2 × 3 × 3 = 18.
+     - √324 = 18.
 
-1. **Prime Factorization**:
-   - Break the number into its prime factors and pair them.
-   - Example: √36 = √(2 * 2 * 3 * 3) = 2 * 3 = 6.
+---
 
-2. **Estimation and Averaging Method**:
-   - For non-perfect squares, use estimation by finding two numbers between which the square root lies, then average.
-   - Example: To find √20, note that √16 < √20 < √25, so it's between 4 and 5. Refine by averaging to get closer to the exact value.
+#### 2. **Estimation and Averaging**
+   - Step 1: Identify two perfect squares between which the number lies.
+   - Step 2: Refine by averaging.
 
-3. **Long Division Method**:
-   - Useful for precise calculation, especially for large numbers. It involves a digit-by-digit approach similar to long division.
+   - Example: √200:
+     - 14² = 196, 15² = 225 → √200 lies between 14 and 15.
+     - Refine: (14 + 15) / 2 = 14.5 (approximation).
+     - Test: 14.5² = 210.25 (too high). Try closer: 14.1² = 198.81 → Approx. √200 = 14.1.
+
+---
+
+#### 3. **Long Division Method**
+   A digit-by-digit approach for precise calculation:
+   - Example: Find √4356:
+     - Pair digits: 43|56.
+     - Closest square ≤ 43: 6 × 6 = 36. Subtract → 43 - 36 = 7. Bring down next pair: 756.
+     - Double root (6 → 12) and find a suitable digit (6): 126 × 6 = 756.
+     - Final root: 66.
+
+---
 
 ## 2. Cubes and Cube Roots
 
 ### Definition of Cube
 
-The **cube** of a number is the result of multiplying the number by itself twice. If **n** is the original number, then the cube is represented as:
+The **cube** of a number is the result of multiplying the number by itself twice. If **n** is the original number:
 
-- **n cubed** = n * n * n = n^3
+- **n cubed** = n × n × n = n³
 
 For example:
-- 2^3 = 2 * 2 * 2 = 8
-- 5^3 = 5 * 5 * 5 = 125
+- 19³ = 19 × 19 × 19 = 6859.
+
+---
 
 ### Properties of Cubes
 
 1. **Sign Preservation**: The cube of a positive number is positive, and the cube of a negative number is negative.
-   - For example, (-3)^3 = -27 and (3)^3 = 27.
+   - Example: (-12)³ = -1728, and (12)³ = 1728.
 
-2. **Perfect Cubes**: Numbers like 1, 8, 27, 64, etc., which are cubes of integers, are known as **perfect cubes**.
-
-3. **Sum of Odd Numbers Formula**: The cube of a number **n** can be represented as the sum of a series of odd numbers, starting from 1 and having **n^2** terms.
-   - For example, 3^3 = 27, and the sum of five odd numbers (1 + 3 + 5 + 7 + 9) is 27.
-
-### Calculating Cubes
-
-1. **Traditional Multiplication**: Multiply the number by itself twice.
-   - Example: 4^3 = 4 * 4 * 4 = 64.
-
-2. **Using Algebraic Identities**:
-   - (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3
-   - (a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3
-   - These are useful for calculating cubes of numbers close to base values.
-
-### Definition of Cube Root
-
-The **cube root** of a number is a value that, when multiplied by itself twice, gives the original number. The cube root of **n** is written as ∛n.
-
-For example:
-- ∛27 = 3, because 3 * 3 * 3 = 27.
-- ∛64 = 4, because 4 * 4 * 4 = 64.
-
-### Properties of Cube Roots
-
-1. **Defined for All Real Numbers**: Cube roots are defined for positive, negative, and zero values.
-2. **Unique Real Result**: For every real number, there is a unique real cube root.
-
-### Calculating Cube Roots
-
-1. **Prime Factorization**:
-   - Break the number into its prime factors and group them into triplets.
-   - Example: ∛216 = ∛(2 * 2 * 2 * 3 * 3 * 3) = 2 * 3 = 6.
-
-2. **Estimation Method**:
-   - Find two perfect cubes between which the number lies.
-   - Example: For ∛50, note that ∛27 < ∛50 < ∛64, so the answer is between 3 and 4. Refine by averaging to get closer.
-
-3. **Using a Calculator**:
-   - Calculators are useful for non-perfect cubes and precise results, especially with decimal values.
+2. **Perfect Cubes**: Numbers like 1, 8, 27, 64, etc., are called **perfect cubes**.
 
 ---
 
-### Summary Table of Key Concepts
+### Techniques for Calculating Cubes (SSC CGL Style)
 
-| Concept             | Definition                                                       | Example Calculation                   |
-|---------------------|------------------------------------------------------------------|---------------------------------------|
-| **Square (n^2)**   | Multiplying a number by itself                                   | 4^2 = 4 * 4 = 16                      |
-| **Square Root (√n)** | Number which, when squared, gives the original number         | √49 = 7                               |
-| **Cube (n^3)**     | Multiplying a number by itself twice                             | 3^3 = 3 * 3 * 3 = 27                  |
-| **Cube Root (∛n)** | Number which, when cubed, gives the original number              | ∛64 = 4                               |
-
-### Real-Life Applications of Squares and Cubes
-
-1. **Area and Volume Calculations**:
-   - Squares are often used to calculate areas of square-shaped spaces.
-   - Cubes are used in volume calculations, like in geometry and engineering.
-
-2. **Physics and Engineering**:
-   - In physics, squares and cubes often appear in formulas for force, energy, and motion.
-
-3. **Economics and Biology**:
-   - Growth rates, like population growth or compound interest, can be modeled using exponents and roots, making square and cube concepts applicable.
+#### 1. **Traditional Multiplication**
+   Multiply the number by itself twice:
+   - Example: 21³:
+     - 21 × 21 = 441.
+     - 441 × 21 = 9261.
 
 ---
 
+#### 2. **Using Algebraic Identities**
+   - **(a + b)³ = a³ + 3a²b + 3ab² + b³**
+     - Example: 53³:
+       - Let 53 = (50 + 3).
+       - Apply formula:
+         - 50³ = 125000.
+         - 3 × 50² × 3 = 22500.
+         - 3 × 50 × 3² = 1350.
+         - 3³ = 27.
+       - Total = 125000 + 22500 + 1350 + 27 = 148877.
 
+---
 
+#### 3. **Prime Factorization for Cube Roots**
+   Break the number into prime factors and group them in triplets:
+   - Example: ∛512:
+     - Prime factorization: 512 = 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2.
+     - Group into triplets: (2 × 2 × 2), (2 × 2 × 2).
+     - Take one number from each triplet: 2 × 2 × 2 = 8.
+     - ∛512 = 8.
+
+---
