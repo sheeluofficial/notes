@@ -3,7 +3,6 @@
 ## 1.1 Numbers and Basic Operations
 
 ### Types of Numbers
-   ![Types of numbers](../../assets/types-of-numbers.png)
 1. **Natural Numbers**:
    - **Definition**: The set of positive counting numbers starting from 1 and continuing indefinitely. They are represented by N.
    - **Example**: 1, 2, 3, 4, etc.
@@ -24,12 +23,12 @@
 - **Example**: 3/4, -2, 0.75 (or 3/4)
    - **Real-Life Application**: Splitting bills or converting measurements, such as 1.5 cups of flour in a recipe.
 
-5. **Irrational Numbers**:
+1. **Irrational Numbers**:
    - **Definition**: Numbers that cannot be expressed as a fraction of two integers. Their decimal representation is non-repeating and non-terminating.
    - **Examples**: pi (π) ≈ 3.14159…, square root of 2 (√2) ≈ 1.414…
    - **Real-Life Application**: Calculating circumference of a circle (involving pi) or working with diagonal measurements (involving square roots).
 
-6. **Real Numbers**:
+2. **Real Numbers**:
    - **Definition**: The set of all rational and irrational numbers, essentially covering all possible numbers along the number line. Represented by ℝ.
    - **Examples**: 2, -3.5, pi (π), square root of 2 (√2)
    - **Real-Life Application**: Measuring any continuous quantity like distance, height, or time.
